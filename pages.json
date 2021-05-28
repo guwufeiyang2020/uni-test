@@ -1,0 +1,42 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/tabbar/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		}
+	    ,{
+            "path" : "pages/tabbar/list/list",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "列表",
+                "enablePullDownRefresh": true,  // 这个页面可以下拉刷新
+				"onReachBottomDistance": 200
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#666",
+		"selectedColor": "#f07373",
+		"backgroundColor": "#fff",
+		"list": [{
+			"pagePath": "pages/tabbar/index/index",
+			"iconPath": "static/index.png",
+			"selectedIconPath": "static/index-active.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/tabbar/list/list",
+			"iconPath": "static/list.png",
+			"selectedIconPath": "static/list-active.png",
+			"text": "列表"
+		}]
+	}
+}

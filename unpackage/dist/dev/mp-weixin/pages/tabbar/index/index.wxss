@@ -1,0 +1,27 @@
+
+.content {
+	padding: 30rpx;
+}
+.section-box {
+	margin-bottom: 30rpx;
+}
+.img-list {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+.img-item {
+		width: 100rpx;
+		height: 100rpx;
+image {
+			width: 100%;
+			height: 100%;
+}
+}
+}
+.ql-container { 
+	background-color: #EBEBEB; 
+	width: 100%; 
+	padding: 10rpx;
+}
+	
+
